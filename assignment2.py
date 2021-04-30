@@ -10,11 +10,9 @@ from pprint import pprint
 nlp = spacy.load('en_core_web_sm')
 
 ## Reading training data
-train = conll.read_corpus_conll('/home/luna/Documents/UNI/NLU/Lab/NLU.Lab.2021/src/conll2003/train.txt', ' ')
-#train = conll.read_corpus_conll('./conll2003/train.txt', ' ')
+train = conll.read_corpus_conll('./conll2003/train.txt', ' ')
 ## Reading test data
-test = conll.read_corpus_conll('/home/luna/Documents/UNI/NLU/Lab/NLU.Lab.2021/src/conll2003/test.txt', ' ')
-#train = conll.read_corpus_conll('./conll2003/test.txt', ' ')
+train = conll.read_corpus_conll('./conll2003/test.txt', ' ')
 
 
 ## Dictionary for labels conversion
